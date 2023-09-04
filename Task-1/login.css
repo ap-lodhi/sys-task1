@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Montserrat:wght@400;700&family=Mulish:wght@300&family=Poppins:wght@300;400;600&family=Urbanist:wght@300;400;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Urbanist", sans-serif;
+
+}
+
+
+/* Header part Css start  */
+
+.navbar-brand img{
+    width: 50%;
+}
+
+.nav-link{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+
+.col-md-5{
+margin: 150px !important;
+background-color: white;
+padding: 20px !important;
+
+}
+input{
+    margin-top: 20px;
+}
+
+button{
+margin-top: 20px !important;
+float: left;
+}
+
+.success{
+    border: 3px solid green !important;
+}
+.error{
+    border: 3px solid red !important;
+}
+
+small{
+    color: red;
+    font-weight: bold;
+    margin: 5px;
+    text-align: start;
+}
+
+
+.more-info-section{
+    
+    background-image: linear-gradient(rgba(65, 61, 61, 0.5), rgba(66, 62, 62, 0.9)), url("https://img.freepik.com/free-vector/ecommerce-web-page-concept-illustration_114360-8204.jpg?size=626&ext=jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 6rem 0;
+    overflow: hidden;
+}
+.more-info-section .img-section{
+    position: relative;
+}
+
+.col-md-5{
+    border-radius:3rem;
+    padding: 60px !important;
+}
