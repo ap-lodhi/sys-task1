@@ -14,5 +14,5 @@ https://64f84a21ae670f5fa681ddb5--thunderous-begonia-5aef66.netlify.app/
 <hr/>
 
 ##Note
-- To view product page you have first signup. signup page link will we in login page  
-- Make sure You remember your email and Pasword  to Login.
+- To view product page you have to first signup. signup page link will we in login page  
+- Make sure You remember your email and Pasword for Login.
