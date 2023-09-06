@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Montserrat:wght@400;700&family=Mulish:wght@300&family=Poppins:wght@300;400;600&family=Urbanist:wght@300;400;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Urbanist", sans-serif;
+
+}
+
+
+/* Header part Css start  */
+
+.navbar-brand img{
+    width: 50%;
+}
+
+.nav-link{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+
+.col-md-5{
+margin: 150px !important;
+background-color: white;
+padding: 20px !important;
+
+}
+input{
+    margin-top: 20px;
+}
+
+button{
+margin-top: 20px !important;
+float: left;
+}
+
+.success{
+    border: 3px solid green !important;
+}
+.error{
+    border: 3px solid red !important;
+}
+
+small{
+    color: red;
+    font-weight: bold;
+    margin: 5px;
+    text-align: start;
+}
+
+
+
+
+.col-md-12{
+    border:1px solid white;
+    padding: 61px !important;
+}
+
+
+.top-con.section{
+    display:grid;
+    place-items: center;
+    height: inherit;
+}
