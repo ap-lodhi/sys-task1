@@ -16,3 +16,4 @@ https://64f84a21ae670f5fa681ddb5--thunderous-begonia-5aef66.netlify.app/
 ##Note
 - To view product page you have to first signup. signup page link will we in login page  
 - Make sure You remember your email and Pasword for Login.
+- And  for cart page added funcnality incrase item etc.
