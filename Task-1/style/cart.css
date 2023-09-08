@@ -108,3 +108,40 @@ h2 {
 .fa-heart:hover {
   color: red;
 }
+
+
+@media all and (min-width: 481px) and (max-width: 784px) {
+
+  .navbar-brand img{
+      width: 40%;
+  }
+  
+  .nav-link{
+      font-size: 10px;
+      font-weight: 600;
+  
+  }
+  /* Header part Css End */
+  
+
+}
+
+@media all and (min-width: 320px) and (max-width: 420px) {
+
+  .navbar-brand img{
+      width: 40%;
+  }
+  a.navbar-brand {
+      width: 70%;
+  }
+  
+  .nav-link{
+      font-size: 15px;
+      font-weight: 600;
+  
+  }
+  
+
+  
+
+}
