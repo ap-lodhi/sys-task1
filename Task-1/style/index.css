@@ -127,14 +127,14 @@ figure {
 /* Responsive  css */
 
 
-@media all and (min-width: 451px) and (max-width: 784px) {
+@media all and (min-width: 481px) and (max-width: 784px) {
 
     .navbar-brand img{
         width: 40%;
     }
     
     .nav-link{
-        font-size: 20px;
+        font-size: 10px;
         font-weight: 600;
     
     }
@@ -188,4 +188,54 @@ figure {
 .bg {
     margin-top: 10rem;
 }
+}
+
+@media all and (min-width: 320px) and (max-width: 420px) {
+
+    .navbar-brand img{
+        width: 40%;
+    }
+    a.navbar-brand {
+        width: 70%;
+    }
+    
+    .nav-link{
+        font-size: 15px;
+        font-weight: 600;
+    
+    }
+    .hero-video--section{
+        width: 30rem;
+        border-radius: 2rem;
+    }
+    
+    .bg-main{
+        height: 95vh;
+        position: relative;
+    }
+    .hero-video--section{
+     
+        height: auto;
+        width: 60%;
+        border-radius: 2rem;
+    }
+    figure {
+        position: relative;
+        &::after {
+          content: "";
+          width: 50%;
+          height: 80%;
+          background-color: rgba(35, 4, 240, 0.4);
+          position: absolute;
+          left: 40%;
+          top: 5rem;
+          z-index: -1;
+        }
+    }
+
+ .hero{
+        margin-top:10px;
+    }
+    
+
 }
